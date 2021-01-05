@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Toast.makeText(this, "just test", Toast.LENGTH_SHORT).show();
+
         if (isLocationPermissionAllow()) {
 
             // do your work
